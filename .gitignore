@@ -1,0 +1,7 @@
+.env
+.venv
+
+model
+tmp
+
+src/__pycache__

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "janken-automation-chatgpt"
+version = "0.1.0"
+description = "Phaserゲームを音声で操作するサンプルアプリ"
+authors = ["ginshari <cat.t.7sun@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.35.7"
+flask = "^3.0.3"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.13"
+pillow = "^10.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
