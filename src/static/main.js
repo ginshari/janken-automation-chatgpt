@@ -208,6 +208,7 @@ function resetGame() {
     cpuHandText.setVisible(false);
     cpuHandEmoji.setText('');
     resultText.setText('');
+    roundText.setText(`ラウンド：${roundCount}`);
 
     resetButton.setVisible(false);
     titleText.setVisible(true);
